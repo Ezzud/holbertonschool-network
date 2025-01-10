@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Add entries to the /etc/hosts file and display the file
 
 sed -i '/localhost/d' /etc/hosts
