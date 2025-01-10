@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Display listening ports with PID and program name
+ss -tulnmp | grep LISTEN
